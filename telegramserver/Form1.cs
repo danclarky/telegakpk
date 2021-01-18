@@ -55,8 +55,8 @@ namespace telegramserver
 
         private static async void DownloadFile(string fileId, string name)
         {
-            WebProxy proxyObject = new WebProxy("http://142.93.58.158:8080/", true);
-            var key = "423941311:AAEe-MEhc1gO9EbUrBQEhqgNLIyHuVVt3UA";
+            WebProxy proxyObject = new WebProxy("http://ip/", true);
+            var key = "4239";
             var Bot = new Telegram.Bot.TelegramBotClient(key, proxyObject);
 
             try
@@ -88,13 +88,13 @@ namespace telegramserver
         {
             string data = "";
             var worker = sender as BackgroundWorker;
-            var key = "4239";
-            var keygetadress = "AIzaSyC";
-            var keydistancematrix = "AIz";
+            var key = "i";
+            var keygetadress = "o";
+            var keydistancematrix = "p";
             try
             {
-                WebProxy proxyObject = new WebProxy("http://142.93.58.158:8080/", true);
-                var proxy = new HttpToSocks5Proxy("97.74.230.16", 44951);
+                WebProxy proxyObject = new WebProxy("ip", true);
+                var proxy = new HttpToSocks5Proxy("ip", 44951);
                 proxy.ResolveHostnamesLocally = true;
                 var Bot = new Telegram.Bot.TelegramBotClient(key, proxy);
          
